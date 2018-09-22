@@ -20,7 +20,6 @@ public class MoveTo : MonoBehaviour {
 
    void Clicked()
      {
-         Debug.Log(Camera.main);
          var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
  
          RaycastHit hit = new RaycastHit();
